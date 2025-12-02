@@ -221,14 +221,21 @@ a:focus,
   height: 100vh !important;
 
   @media (max-width: 767px) {
-    .row {
-      height: 80vh !important;
-    }
+    /* .row {
+      height: 100vh !important;
+    } */
 
     .intro-text {
-      padding-top: 20rem;
+      padding-top:  20rem;
       padding-bottom: 200px;
       text-align: center;
+
+      h1{
+        font-size: 6rem;
+      }
+      p{
+        font-size: 2rem;
+      }
     }
   }
 }
