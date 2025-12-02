@@ -218,8 +218,21 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 100vh;
+  height: 100vh !important;
+
+  @media (max-width: 767px) {
+    .row {
+      height: 80vh !important;
+    }
+
+    .intro-text {
+      padding-top: 20rem;
+      padding-bottom: 200px;
+      text-align: center;
+    }
+  }
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
