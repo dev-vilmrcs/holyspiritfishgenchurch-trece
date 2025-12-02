@@ -376,6 +376,11 @@ header .intro-text {
     font-weight: 500;
     margin-bottom: 20px;
     color: #333;
+    @media (max-width: 767px) {
+      i {
+        line-height: 3rem;
+      }
+    }
   }
 
   .heading-text span {
